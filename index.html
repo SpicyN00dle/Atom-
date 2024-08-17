@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="icon" href="imgs/atom-68867_640.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Atom</title>
+  </head>
+  <body>
+    <!-- Start Settings Box -->
+    <div class="settings-box">
+      <div class="toggle-settings">
+        <i class="fas fa-cogs gear"></i>
+      </div>
+      <div class="settings-container">
+        <div class="option-box">
+          <h4>Colors</h4>
+          <ul class="color-list">
+            <li class="active" data-color=" #ffc107"></li>
+            <li data-color="#f44336"></li>
+            <li data-color="#4caf50"></li>
+            <li data-color="#00bcd4"></li>
+          </ul>
+        </div>
+        <div class="option-box">
+          <h4>Backgrounds</h4>
+          <div class="random-backgrounds">
+            <span class="on active" data-background="on">On</span>
+            <span class="off" data-background="off">Off</span>
+          </div>
+        </div>
+        <div class="option-box">
+          <h4>Bullets</h4>
+          <div class="bullets-option">
+            <span class="on active" data-display="on">Show</span>
+            <span class="off" data-display="off">Hide</span>
+          </div>
+        </div>
+        <button class="reset-options">Reset Options</button>
+      </div>
+    </div>
+    <!-- End Settings Box -->
+
+    <!-- Start Nav Bullets -->
+    <div class="nav-bullets">
+      <div class="bullet" data-section=".about-us">
+        <div class="tooltip">About Us</div>
+      </div>
+      <div class="bullet" data-section=".skills">
+        <div class="tooltip">Skills</div>
+      </div>
+      <div class="bullet" data-section=".gallary">
+        <div class="tooltip">Gallary</div>
+      </div>
+      <div class="bullet" data-section=".timeline">
+        <div class="tooltip">Timeline</div>
+      </div>
+      <div class="bullet" data-section=".features">
+        <div class="tooltip">Atom</div>
+      </div>
+      <div class="bullet" data-section=".testimonials">
+        <div class="tooltip">Testimonials</div>
+      </div>
+    </div>
+    <!-- End Nav Bullets -->
+
+    <!-- Start Landing Page -->
+    <div class="landing-page">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="header-area">
+          <div class="logo">Atoms</div>
+          <div class="links-container">
+            <ul class="links">
+              <li><a class="active" href="#">Home</a></li>
+              <li><a href="#" data-section=".about-us">About Us</a></li>
+              <li><a href="#" data-section=".skills">Skills</a></li>
+              <li><a href="#" data-section=".gallary">Gallary</a></li>
+              <li><a href="#" data-section=".timeline">Timeline</a></li>
+              <li><a href="#" data-section=".features">Atom</a></li>
+              <li><a href="#" data-section=".testimonials">Testimonials</a></li>
+            </ul>
+            <button class="toggle-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="introduction-text">
+        <h1>We Are<span> Atoms</span></h1>
+        <p>
+          Nothing exists except atoms and empty space; everything else is
+          opinion....
+        </p>
+      </div>
+    </div>
+    <!-- End Landing Page -->
+    <!-- Start About Us -->
+    <div class="container">
+      <div class="about-us">
+        <div class="info-box">
+          <h4>About <span>Atoms</span></h4>
+          <p>
+            Atmos is an exploration of climate and culture, a nonprofit biannual
+            magazine and digital platform curated by a global ecosystem of
+            artists, activists, and writers devoted to ecological and social
+            justice through creative storytelling.
+          </p>
+        </div>
+        <div class="image-box">
+          <img src="imgs/6491948.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- End About Us -->
+    <!-- Start Skills -->
+    <div class="skills">
+      <div class="container">
+        <h2>Atoms properties</h2>
+        <div class="skill-box">
+          <div class="skill-Name">Nuclear Models</div>
+          <div class="skill-progress">
+            <span data-progress="90%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-Name">Surface energy</div>
+          <div class="skill-progress">
+            <span data-progress="75%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-Name">intercessory energy</div>
+          <div class="skill-progress">
+            <span data-progress="65%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Skills -->
+    <!-- Start Gallary -->
+    <div class="gallary">
+      <div class="container">
+        <h2>scientists</h2>
+        <div class="images-box">
+          <img src="imgs/scinetists/1.jpg" alt="Leo Szilard " />
+          <img src="imgs/scinetists/2.jpg" alt="Franklin Matthias " />
+          <img src="imgs/scinetists/3.jpg" alt="Edward Teller" />
+          <img src="imgs/scinetists/4.jpg" alt="Lise Meitner" />
+          <img src="imgs/scinetists/5.jpg" alt="Marie Curie" />
+          <img src="imgs/scinetists/6.jpg" alt="Albert Einstein" />
+          <img src="imgs/scinetists/7.jpg" alt="Vannevar Bush" />
+          <img src="imgs/scinetists/8.jpg" alt="Klaus Emil Julius Fuchs" />
+          <img src="imgs/scinetists/9.jpg" alt="J. Robert Oppenheimer" />
+          <img src="imgs/scinetists/10.jpg" alt="Arthur Compton " />
+        </div>
+      </div>
+    </div>
+    <!-- End Gallary -->
+    <!-- Start Timeline -->
+    <div class="timeline">
+      <div class="container">
+        <div class="timeline-content">
+          <div class="year">1945</div>
+
+          <div class="left">
+            <div class="content">
+              <h3>manhattan project</h3>
+              <p>
+                The United States, in cooperation with the United Kingdom and
+                Canada, during their clandestine projects: pipelines and Chuck
+                River Laboratories, designed and built the first nuclear bomb
+                under the Manhattan Project. The American physicist Robert
+                Upenheimer managed scientific research
+              </p>
+            </div>
+          </div>
+          <div class="clearFix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Hiroshima and Nagasaki</h3>
+              <p>
+                A nuclear attack by the United States against the Japanese
+                Empire at the end of the Second World War in August 1945, the
+                United States bombed the cities of Hiroshima and Nagasaki using
+                atomic bombs; because of the refusal to implement the Potsdam
+                Declaration, Japan had to give up completely and unconditionally
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Timeline -->
+    <!-- Start Features -->
+    <div class="features">
+      <div class="container">
+        <h2>Atom</h2>
+        <div class="feat-box">
+          <img src="imgs/hosting-icon.svg" alt="" />
+          <h4>Plutonium</h4>
+          <p>
+            Plutonium is a chemical element; it has symbol Pu and atomic number
+            94.
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="imgs/mobile-app.svg" alt="" />
+          <h4>Uranium</h4>
+          <p>
+            Uranium is a chemical element; it has symbol U and atomic number 92.
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="imgs/programming.svg" alt="" />
+          <h4>Hydrogen</h4>
+          <p>
+            Hydrogen is a chemical element; it has symbol H and atomic number 1.
+          </p>
+        </div>
+        <div class="clearFix"></div>
+      </div>
+    </div>
+    <!-- End Features -->
+
+    <!-- Start Testimonials -->
+    <div class="testimonials">
+      <div class="container">
+        <h2>Testimonials</h2>
+        <div class="ts-box">
+          <p>
+            Iam very happy with the product its amazing and i recieve it very
+            fast and the price was amazing.
+          </p>
+          <div class="person-info">
+            <img src="https://placehold.it/80/DDD" alt="" />
+            <h4>Ahmed Mosaad</h4>
+            <p>CEO At Company</p>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>
+            Iam very happy with the product its amazing and i recieve it very
+            fast and the price was amazing.
+          </p>
+          <div class="person-info">
+            <img src="https://placehold.it/80/EEE" alt="" />
+            <h4>Mohamed Ibrahim</h4>
+            <p>CEO At Company</p>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>
+            Iam very happy with the product its amazing and i recieve it very
+            fast and the price was amazing.
+          </p>
+          <div class="person-info">
+            <img src="https://placehold.it/80/AAA" alt="" />
+            <h4>Sherief Ashraf</h4>
+            <p>CEO At Company</p>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <!-- End Testimonials -->
+    <!-- Start Contact Us -->
+    <div class="contact">
+      <div class="overlay"></div>
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form action="">
+          <div class="left">
+            <input type="text" placeholder="Your Name" name="username" />
+            <input type="number" placeholder="Your Phone" name="phone" />
+            <input type="email" placeholder="Your Email" name="email" />
+            <input type="text" placeholder="Subject" name="subject" />
+          </div>
+          <div class="right">
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="footer">Created By Mahmoud Sh 8/16/2024</div>
+    <!-- End Contact Us -->
+    <script src="js/master.js"></script>
+  </body>
+</html>
